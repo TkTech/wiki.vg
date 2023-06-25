@@ -67,7 +67,7 @@ $wgSMTP = array(
 
 ## Database settings
 
-$dbURL = parse_url(getenv("DATABASE_URL"))
+$dbURL = parse_url(getenv("DATABASE_URL"));
 $wgDBtype = "mysql";
 $wgDBserver = $dbURL["host"];
 $wgDBname = substr($dbURL["path"], 1);
