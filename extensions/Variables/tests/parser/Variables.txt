@@ -1,0 +1,173 @@
+# @todo expand
+!! functionhooks
+var
+!! endfunctionhooks
+
+!! test
+#vardefine, #vardefineecho and #var
+!! input
+{{#vardefine: a | Test }}
+"{{#var: a }}"
+"{{#vardefineecho: a | Test 2 }}, {{#var: a }}"
+!! result
+<p>"Test"
+"Test 2, Test 2"
+</p>
+!! end
+
+!! test
+#varexists
+!! input
+{{#varexists: a }}{{#vardefine: a }}
+"{{#varexists: a }}"
+!!result
+<p>"1"
+</p>
+!! end
+
+!! test
+#var_final
+!! input
+"{{#var_final: a }}"
+{{#vardefine: a | something }}"{{#var: a }}"
+{{#vardefine: a | final }}"{{#var_final: a }}"
+!! result
+<p>"final"
+"something"
+"final"
+</p>
+!! end
+
+!! test
+#varexists incorporating #if functionality
+!! input
+{{#vardefine: a }}"{{#varexists: a | yes | no }}"
+"{{#varexists: b | yes | no }}"
+!! result
+<p>"yes"
+"no"
+</p>
+!! end
+
+!! test
+Variables should not be reset on special page inclusion (old bug, solved in Variables 2.0)
+!! input
+{{#vardefine: a | 1 }}{{#vardefine: | {{Special:AllPages}} }}
+"{{#var: a }}"
+!! result
+<p>"1"
+</p>
+!! end
+
+!! test
+Default values for #var
+!! input
+"{{#var: a | 1 }}"
+{{#vardefine: a | 0 }}"{{#var: a | 1 }}"
+!! result
+<p>"1"
+"0"
+</p>
+!! end
+
+!! test
+The default value of #var should not be expanded if it does not apply.
+!! input
+{{#vardefine: a | 1 }}"{{#var: a | {{#vardefineecho: b | 2 }} }}"
+"{{#var: b | 3 }}"
+!! result
+<p>"1"
+"3"
+</p>
+!! end
+
+!! test
+The else value of #varexists should not be expanded if the if value applies.
+!! input
+{{#vardefine: a | w }}"{{#varexists: a | x | {{#vardefineecho: b | y }} }}"
+"{{#var: b | z }}"
+!! result
+<p>"x"
+"z"
+</p>
+!! end
+
+!! test
+The if value of #varexists should not be expanded if the else value applies.
+!! input
+"{{#varexists: a | {{#vardefineecho: b | x }} | y }}"
+"{{#var: b | z }}"
+!! result
+<p>"y"
+"z"
+</p>
+!! end
+
+!! test
+Empty string is a valid variable name as well.
+!! input
+"{{#var_final: }}"
+{{#vardefine: | 1 }}"{{#var: }}"
+!! result
+<p>"1"
+"1"
+</p>
+!! end
+
+!! test
+Integers are valid variable names, but even though their actually strings,
+they are cast to int when used as array keys.
+!! input
+"{{#var_final: 1 }}"
+{{#vardefine: 1 | x }}"{{#var: 1 }}"
+!! result
+<p>"x"
+"x"
+</p>
+!! end
+
+!! article
+Template:EchoVarA
+!! text
+{{#var: a }}
+!! endarticle
+
+!! article
+Template:IssetA
+!! text
+{{#varexists: a }}
+!!Endarticle
+
+!! test
+By default, there shouldn't be any template caching if Variables are used.
+!! config
+egVariablesAreVolatile=true
+!! input
+"{{IssetA}}"
+{{#vardefine: a | x }}"{{EchoVarA}}"
+"{{IssetA}}"
+{{#vardefine: a | y }}"{{EchoVarA}}"
+!! result
+<p>""
+"x"
+"1"
+"y"
+</p>
+!! end
+
+!! test
+However, it's possible to activate the legacy behavior to activate template caching.
+!! config
+egVariablesAreVolatile=false
+!! input
+"{{IssetA}}"
+{{#vardefine: a | x }}"{{EchoVarA}}"
+"{{IssetA}}"
+{{#vardefine: a | y }}"{{EchoVarA}}"
+!! result
+<p>""
+"x"
+""
+"x"
+</p>
+!! end

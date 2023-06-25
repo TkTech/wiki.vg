@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikahama",
+			"Stryn",
+			"Pxos",
+			"Nike",
+			"Pyscowicz",
+			"Silvonen"
+		]
+	},
+	"disableoathforuser": "Poista käytöstä käyttäjän kaksivaiheinen tunnistautuminen",
+	"specialpages-group-oath": "Kaksivaiheinen tunnistautuminen",
+	"oathauth-account": "Tilin nimi:",
+	"oathauth-secret": "Kaksivaiheisen tunnistautumisen salausavain:",
+	"oathauth-enable": "Ota käyttöön kaksivaiheinen tunnistautuminen",
+	"oathauth-token": "Avain",
+	"oathauth-disable": "Poista käytöstä kaksivaiheinen tunnistautuminen",
+	"oathauth-prefs-label": "Kaksivaiheinen tunnistautuminen:",
+	"oathauth-step1": "Vaihe 1: Lataa kaksivaiheisen tunnistautumisen sovellus",
+	"oathauth-step2": "Vaihe 2: Skannaa QR-koodi",
+	"oathauth-step2alt": "Tai syötä salainen tunnus käsin:",
+	"oathauth-step4": "Vaihe 4: Vahvistus",
+	"oathauth-enteruser": "Käyttäjänimi:",
+	"right-oathauth-enable": "Ottaa käyttöön kahden tekijän avulla suoritettu (''two-factor'') tunnistautuminen",
+	"action-oathauth-enable": "ottaa käyttöön kahden tekijän avulla suoritettua (''two-factor'') tunnistautumista",
+	"oathauth-auth-token-label": "Avain",
+	"oathauth-auth-ui": "Syötä vahvistuskoodi tunnistautumislaitteestasi",
+	"action-oathauth-api-all": "tarkistaa OATH-tilaa",
+	"oathauth-disable-method-warning-button-label": "Vahvista ja jatka"
+}

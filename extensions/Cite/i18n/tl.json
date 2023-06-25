@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"cite-desc": "Nagdaragdag ng mga tatak na <code>&lt;ref[ name=id]&gt;</code> at <code>&lt;references/&gt;</code>, para sa mga pagtukoy",
+	"cite_error": "Kamalian sa pagtukoy: $1",
+	"cite_error_ref_numeric_key": "Hindi tanggap ang tatak na <code>&lt;ref&gt;</code>;\nhindi maaaring isang payak na buumbilang (''integer'') ang pangalan.  Gumamit ng isang mapaglarawang pamagat",
+	"cite_error_ref_no_key": "Hindi tanggap ang tatak na <code>&lt;ref&gt;</code>;\nkinakailangan may isang pangalan ang mga sangguniang (''ref'') walang nilalaman",
+	"cite_error_ref_too_many_keys": "Hindi tanggap ang tatak na <code>&lt;ref&gt;</code>;\nhindi tanggap na mga pangalan, ang ibig sabihin ay napakarami",
+	"cite_error_ref_no_input": "Hindi tanggap ang tatak na <code>&lt;ref&gt;</code>;\nkinakailangang may nilalaman ang mga sangguniang (''ref'') walang pangalan",
+	"cite_error_references_invalid_parameters": "Hindi tanggap na <code>&lt;references&gt;</code>;\nwalang pinapahintulutang mga parametro.\nGamitin ang <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "Naubusan ng pasadyang mga tatak na pantukoy ng panlikod na kawing.\nDagdagan pa ng pakahulugan sa loob ng mensaheng <nowiki>[[MediaWiki:Cite references link many format backlink labels]]</nowiki>",
+	"cite_error_no_link_label_group": "Naubusan ng mga tatak ng pasadyang kawing para sa pangkat na \"$1\".\nMagbigay ng marami pang kahulugan sa loob ng mensaheng <nowiki>[[MediaWiki:$2]]</nowiki>.",
+	"cite_error_references_no_text": "Hindi tanggap ang tatak na <code>&lt;ref&gt;</code>;\nwalang tekstong ibinigay para sa mga sangguniang (''ref'') pinangalanang <code>$1</code>",
+	"cite_error_included_ref": "Naawawala ang pansarang <code>&lt;/ref&gt;</code> na para sa tatak na <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Umiiral na ang tatak na <code>&lt;ref&gt;</code> para sa pangkat na pinangalanang \"$1\", subalit walang natagpuang katumbas na tatak na <code>&lt;references group=\"$1\"/&gt;</code>",
+	"cite_error_references_group_mismatch": "May hindi nagbabanggaang katangiang pampangkat na \"$1\" ang <code>&lt;ref&gt;</code> tatak na nasa <code>&lt;references&gt;</code>.",
+	"cite_error_references_missing_group": "Ang tatak na <code>&lt;ref&gt;</code> na binigyang kahulugan sa <code>&lt;references&gt;</code> ay may katangiang pampangkat na \"$1\" na hindi lumilitawa sa naunang teksto.",
+	"cite_error_references_missing_key": "Ang tatak na <code>&lt;ref&gt;</code> na may pangalang \"$1\" na binigyang kahulugan sa <code>&lt;references&gt;</code> ay hindi ginamit sa naunang teksto.",
+	"cite_error_references_no_key": "Ang tatak na <code>&lt;ref&gt;</code> na binigyang kahulugan sa <code>&lt;references&gt;</code> ay walang katangiang pampangalan.",
+	"cite_error_empty_references_define": "Ang tatak na <code>&lt;ref&gt;</code> na binigyang kahulugan sa <code>&lt;references&gt;</code> na may pangalang \"$1\" ay walang nilalaman."
+}

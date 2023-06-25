@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Incelemeelemani",
+			"Hbseren",
+			"Sayginer",
+			"HakanIST",
+			"TmY e12",
+			"Vito Genovese",
+			"Hedda",
+			"ToprakM"
+		]
+	},
+	"oathauth-desc": "HMAC tabanlı tek kullanımlık parolalar kullanarak kimlik doğrulama desteği sağlar",
+	"specialpages-group-oath": "İki Aşamalı Doğrulama",
+	"oathauth-account": "İki Faktörlü Hesap Adı:",
+	"oathauth-secret": "İki Faktörlü Gizli Anahtar:",
+	"oathauth-enable": "İki aşamalı doğrulamayı etkinleştir",
+	"oathauth-scratchtokens": "Aşağıdaki listede, yalnızca bir defa kullanımlık anahtar bulunmaktadır. Bu semboller yalnızca bir defalık kullanım içindir ve acil durum kullanımlarına özel olabilir. Lütfen aşağıda yazılı anahtarı bir yere yazın ve bunu güvenli bir yerde saklayın. Eğer telefonunuzu kaybederseniz, bu simgeler hesabınızı kurtarmanın tek yolu olacaktır. Bu simgeler asla tekrar gösterilmeyecektir.",
+	"oathauth-token": "Anahtar",
+	"oathauth-disable": "İki Faktörlü Kimlik Doğrulama Devre Dışı",
+	"oathauth-validatedoath": "İki Faktörlü kimlik onaylandı. İki faktörlü kimlik doğrulama artık etkinleştirilecektir.",
+	"oathauth-failedtovalidateoath": "İki faktörlü kimlik doğrulama başarısız oldu",
+	"oathauth-disabledoath": "İki faktörlü kimlik doğrulama devre dışı.",
+	"oathauth-prefs-label": "İki Aşamalı Doğrulama:",
+	"oathauth-step1": "1. Adım: Uygulamayı indirin",
+	"oathauth-step1-test": "İki aşamalı doğrulama programı indirin. Bu bir mobil uygulama (Google Authenticator gibi) veya bir masaüstü uygulaması olabilir.",
+	"oathauth-step2": "2. Adım: QR kodunu tarayın",
+	"oathauth-step2alt": "Veya özel kodu elle girin:",
+	"oathauth-step3": "3. Adım: Yedek kodlarını kaybetmeyeceğiniz bir yere not edin",
+	"oathauth-step4": "4. Adım: Doğrulama",
+	"oathauth-entertoken": "Doğrulamak için kimlik doğrulama uygulamasından özel kodu elle gir:",
+	"oathauth-disable-for-user": "Bir kullanıcı için iki faktörlü kimlik doğrulamasını devre dışı bırak",
+	"right-oathauth-disable-for-user": "Bir kullanıcı için iki faktörlü kimlik doğrulamasını devre dışı bırak",
+	"oathauth-disable-intro": "Büyük güç, beraberinde büyük sorumluluklar getirir",
+	"oathauth-enteruser": "Kullanıcı adı:",
+	"oathauth-user-not-does-not-have-oath-enabled": "Kullanıcının iki faktörlü kimlik doğrulaması etkin değil, bu nedenle devre dışı bırakılacak bir şey yok",
+	"right-oathauth-enable": "İki aşamalı doğrulamayı etkinleştir",
+	"action-oathauth-enable": "iki aşamalı doğrulamayı etkinleştir",
+	"oathauth-auth-ui": "Lütfen iki aşamalı doğrulama uygulamasından aldığınız kodu girin",
+	"grant-group-authentication": "Kimlik doğrulama işlemlerini kendin ve diğerleri için uygula"
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"variables-desc": "Parserfunksjoner som gjør det mulig å jobbe med dynamiske variabler i en artikkelkontekst"
+}

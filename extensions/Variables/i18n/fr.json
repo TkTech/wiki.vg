@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"DavidL",
+			"Gomoko"
+		]
+	},
+	"variables-desc": "Fonctions de l'interpréteur permettant de travailler avec les variables dynamiques dans le contexte d'un article",
+	"variables-config-disabledfunctions": "Permet de définir un tableau de fonctions qui ne doit pas être disponible dans le wiki. Omettre tout # lors de l’ajout de fonctions.",
+	"variables-config-arevolatile": "Traiter les fonctions de l’analyseur #var et #varexists comme volatiles, pour éviter un comportement inattendu du fait de la mise en cache des modèles. Désactiver cela rétablit le comportement précédent."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"variables-desc": "Funções sintáticas que permitem trabalhar com variáveis dinâmicas no contexto de um artigo",
+	"variables-config-disabledfunctions": "Permite definir uma série de funções que não devem estar disponíveis dentro do wiki. Omita qualquer # enquanto adiciona funções.",
+	"variables-config-arevolatile": "Trata como voláteis as funções do analisador sintático #var e #varexists, para impedir comportamentos inesperados devido ao armazenamento de predefinições na cache. Desativar esta funcionalidade repõe o comportamento antigo."
+}

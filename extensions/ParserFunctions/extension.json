@@ -1,0 +1,44 @@
+{
+	"name": "ParserFunctions",
+	"version": "1.6.0",
+	"author": [
+		"Tim Starling",
+		"Robert Rohde",
+		"Ross McClure",
+		"Juraj Simlovic"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ParserFunctions",
+	"descriptionmsg": "pfunc_desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"config": {
+		"PFEnableStringFunctions": false,
+		"PFStringLengthLimit": 1000
+	},
+	"ExtensionMessagesFiles": {
+		"ParserFunctionsMagic": "ParserFunctions.i18n.magic.php"
+	},
+	"MessagesDirs": {
+		"ParserFunctions": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ParserTestGlobals": [
+			"MediaWiki\\Extensions\\ParserFunctions\\Hooks::onParserTestGlobals"
+		],
+		"ParserFirstCallInit": [
+			"MediaWiki\\Extensions\\ParserFunctions\\Hooks::onParserFirstCallInit"
+		],
+		"ScribuntoExternalLibraries": [
+			"MediaWiki\\Extensions\\ParserFunctions\\Hooks::onScribuntoExternalLibraries"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\ParserFunctions\\": "includes/"
+	},
+	"manifest_version": 1
+}

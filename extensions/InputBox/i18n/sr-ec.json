@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Millosh",
+			"Rancher",
+			"Михајло Анђелковић",
+			"Milicevic01",
+			"BadDog"
+		]
+	},
+	"inputbox-desc": "Омогућава укључивање унапред дефинисаних HTML образаца.",
+	"inputbox-error-no-type": "Нисте одредили тип кутије за унос коју правите.",
+	"inputbox-error-bad-type": "Тип „$1“ кутијице за унос података је непознат.\nМолимо вас да га промените на „create“, „comment“, „search“, „search2“ или „fulltext“.",
+	"inputbox-tryexact": "Покушај да нађеш тачан упит",
+	"inputbox-searchfulltext": "Претражи цео текст",
+	"inputbox-createarticle": "Направи страницу",
+	"inputbox-postcomment": "Нови одељак",
+	"inputbox-postcommenttitle": "Нови одељак",
+	"inputbox-ns-main": "Главни"
+}
