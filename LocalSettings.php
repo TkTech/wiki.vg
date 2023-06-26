@@ -29,7 +29,7 @@ $wgArticlePath = "/$1";
 $wgUsePathInfo = true;
 
 # The protocol and server name to use in fully-qualified URLs
-$wgServer = "https://wiki.vg";
+$wgServer = "https://wiki.montreal.tkte.ch";
 
 # The relative URL path to the skins directory
 $wgStylePath = "$wgScriptPath/skins";
