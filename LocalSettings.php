@@ -51,8 +51,8 @@ $wgEnableUserEmail = false; # UPO
 $wgEmergencyContact = "tk@tkte.ch";
 $wgPasswordSender = "wiki@wiki.vg";
 
-$wgEnotifUserTalk = false; # UPO
-$wgEnotifWatchlist = false; # UPO
+$wgEnotifUserTalk = true; # UPO
+$wgEnotifWatchlist = true; # UPO
 $wgEmailAuthentication = true;
 $wgEmailConfirmToEdit = true;
 
