@@ -184,7 +184,8 @@ wfLoadExtensions([
 $wgPFEnableStringFunctions = true;
 
 $wgCaptchaQuestions = [
-	'What came first, C or C++?' => 'C'
+	'What came first, Python or Java?' => 'Python',
+	'What language was Minecraft first written in?' => 'Java'
 ];
 
 # $wgReadOnly = 'Maintenance in progress.';
