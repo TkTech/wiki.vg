@@ -188,4 +188,4 @@ $wgCaptchaQuestions = [
 	'What language was Minecraft first written in?' => 'Java'
 ];
 
-# $wgReadOnly = 'Maintenance in progress.';
+$wgReadOnly = 'Wiki is currently under maintenance. Please try again later.';
